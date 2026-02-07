@@ -10,4 +10,8 @@ cask "swifka" do
   depends_on macos: ">= :sequoia"
 
   app "Swifka.app"
+  
+  postflight do                                                                                                                     
+      system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Swifka.app"]
+  end 
 end
