@@ -1,6 +1,6 @@
 cask "swifka" do
-  version "0.20"
-  sha256 "dcabf0993aabf25ab62221043691e4f58383905f9422300ad1803c4660bed964"
+  version "0.21"
+  sha256 "01ab2eede28bb663424204112303bb369d647986a600de2edf52de0308929b48"
 
   url "https://github.com/Ender-Wang/Swifka/releases/download/v#{version}/Swifka-v#{version}.dmg"
   name "Swifka"
