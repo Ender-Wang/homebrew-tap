@@ -1,6 +1,6 @@
 cask "edgemark" do
-  version "0.2"
-  sha256 "a08755de0b7f88e2263518b6e4aca49927a11ae1f2bfe03e04fb270231a6e25f"
+  version "0.3"
+  sha256 "e01e4c0f804bc1abd385076f2b197ad1ace45581e791c171951300e7398c9431"
 
   url "https://github.com/Ender-Wang/EdgeMark/releases/download/v#{version}/EdgeMark-v#{version}.dmg"
   name "EdgeMark"
