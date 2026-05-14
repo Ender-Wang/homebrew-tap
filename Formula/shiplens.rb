@@ -4,26 +4,26 @@
 class Shiplens < Formula
   desc "First release version of every line of code, inline in your terminal"
   homepage "https://github.com/Ender-Wang/ShipLens"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Ender-Wang/ShipLens/releases/download/v0.1.2/shiplens-cli-v0.1.2-darwin-arm64.tar.gz"
-      sha256 "dd13b0623b6929e67d39cf1fab1c53edd2dd3891d3d5751d4b9894bf3e5c6983"
+      url "https://github.com/Ender-Wang/ShipLens/releases/download/v0.1.3/shiplens-cli-v0.1.3-darwin-arm64.tar.gz"
+      sha256 "c80e95a79c864b07b8de484c2b422180e36272b9ab55f167d5b9956a22c0be4c"
     else
-      url "https://github.com/Ender-Wang/ShipLens/releases/download/v0.1.2/shiplens-cli-v0.1.2-darwin-amd64.tar.gz"
-      sha256 "43742e8de2bcf86649ab1b36578caa1a7f1c90942c125b5979ba4e6ef574d273"
+      url "https://github.com/Ender-Wang/ShipLens/releases/download/v0.1.3/shiplens-cli-v0.1.3-darwin-amd64.tar.gz"
+      sha256 "dfd9731876fab5c2ba221e6b8219861c00e6f5070327ed3de762f6154398fb0a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Ender-Wang/ShipLens/releases/download/v0.1.2/shiplens-cli-v0.1.2-linux-arm64.tar.gz"
-      sha256 "4fdd902e7866b7d8a320c49cf9fbaffc5fa5ddcff12c630d9cdbc7c791d39c2f"
+      url "https://github.com/Ender-Wang/ShipLens/releases/download/v0.1.3/shiplens-cli-v0.1.3-linux-arm64.tar.gz"
+      sha256 "4adb3ca1c3fb8aae212e06b73a0f417392bbd77406e39225841282aae135e1b7"
     else
-      url "https://github.com/Ender-Wang/ShipLens/releases/download/v0.1.2/shiplens-cli-v0.1.2-linux-amd64.tar.gz"
-      sha256 "e11d61b621de2f1e1b8a61d85c2d29fcce19a5d08ac5d97b568955aa74b7250c"
+      url "https://github.com/Ender-Wang/ShipLens/releases/download/v0.1.3/shiplens-cli-v0.1.3-linux-amd64.tar.gz"
+      sha256 "3f99580d38d33187d21c5ed69f5c4d9613fe04833352e053c0789ed942dc46a2"
     end
   end
 
