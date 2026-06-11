@@ -1,13 +1,13 @@
 cask "edgemark" do
-  version "2.1.0"
+  version "2.2.0"
 
   on_arm do
-    sha256 "9cf9b83f0a37f1e31fa76a92c79d8066ccfa2000b841d7722608c9c57729de7c"
+    sha256 "714927ca185ee720996aa2dfdae88a66710f1316f4fbad0bdefbfdaaa2cb4d93"
     url "https://github.com/Ender-Wang/EdgeMark/releases/download/v#{version}/EdgeMark-v#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "ce7a35d39c00c6dc77d901a8c2f6aebde3784f95cff5ea1e15e1b453fc3068f5"
+    sha256 "d5107c447efce89b11640a9de5899e769a0c073b68fa1889c9864927980a72a4"
     url "https://github.com/Ender-Wang/EdgeMark/releases/download/v#{version}/EdgeMark-v#{version}-x86_64.dmg"
   end
 
@@ -15,7 +15,7 @@ cask "edgemark" do
   desc "Native macOS side-panel Markdown notes app"
   homepage "https://github.com/Ender-Wang/EdgeMark"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "EdgeMark.app"
 
