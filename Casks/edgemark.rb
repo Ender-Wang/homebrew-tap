@@ -1,13 +1,13 @@
 cask "edgemark" do
-  version "2.9.0"
+  version "2.10.0"
 
   on_arm do
-    sha256 "d31ddd960aa3892ff8f7a93dc4de164508158bb2f1634991bfabd149c4387ee7"
+    sha256 "4dcf103b997415bca6327cd55bf458898ea0026dba63792d83a33f303d6f2ba5"
     url "https://github.com/Ender-Wang/EdgeMark/releases/download/v#{version}/EdgeMark-v#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "f3bf805f66e2576156b8d8a01d2ac9fb048a7e2593adb75059e2e04853507231"
+    sha256 "cbb4afcd4084ff48cb03759b4057d641214a92b51595929c4a810f626823a29e"
     url "https://github.com/Ender-Wang/EdgeMark/releases/download/v#{version}/EdgeMark-v#{version}-x86_64.dmg"
   end
 
