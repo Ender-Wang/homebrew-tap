@@ -20,6 +20,6 @@ cask "edgemark" do
   app "EdgeMark.app"
 
   postflight_steps do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/EdgeMark.app"]
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/EdgeMark.app"]
   end
 end
